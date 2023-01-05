@@ -1,0 +1,29 @@
+.tabs {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.tabs li {
+  /* border: 1px solid; */
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #f8f8f8;
+}
+
+.active {
+  /* border: 1px solid; */
+  background: none;
+  width: 100%;
+  color: #f8f8f8;
+  border: none;
+  border-left: 2px solid cyan !important;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
